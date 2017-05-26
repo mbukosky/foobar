@@ -1,0 +1,25 @@
+reviews:
+  - name: Package.json Maintainers
+    # List of GitHub usernames
+    logins:
+      # All three of the following formats are supported:
+      - Mike Bukosky (@mbukosky)
+      - Chris Brune (@chrisbrune)
+    # Optional glob to match on
+    glob: package.json
+    # Number of required sign offs
+    required: 1
+  - name: Pom Maintainers
+    # List of GitHub usernames
+    logins:
+      # All three of the following formats are supported:
+      - Mike Bukosky (@mbukosky)
+      - Chris Brune (@chrisbrune)
+      # Optional glob to match on
+    glob: README.md
+    # Number of required sign offs
+    required: 1
+  # Multiple reviews can be listed.
+  - name: General Maintainers
+    logins:
+      - Mike Bukosky (@mbukosky)
