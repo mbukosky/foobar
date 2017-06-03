@@ -23,3 +23,5 @@ reviews:
   - name: General Maintainers
     logins:
       - Mike Bukosky (@mbukosky)
+  # Multiple reviews can be listed.
+  - name: jgit-flow
